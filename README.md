@@ -1,13 +1,11 @@
 # Load Balancer
 
-## Overview
-
 The Load Balancer is a microservice application built with Spring Boot. It provides an endpoint to check the status of the service and is deployed in a Kubernetes cluster. This service interacts with other microservices and is designed to be simple and efficient.
 
 ## Features
 
 - **Status Endpoint**: Returns a message including the hostname of the pod serving the request.
-- **Kubernetes Deployment**: Deployed as a LoadBalancer service in a Kubernetes cluster.
+- **Kubernetes Deployment**: Deployed as a Load Balancer service in a Kubernetes cluster.
 
 ## Getting Started
 
@@ -56,7 +54,7 @@ The Load Balancer is a microservice application built with Spring Boot. It provi
    skaffold run
    ```
 
-7. **Verify Deployment**
+7. **Verify the Deployment**
    
    ```bash
    kubectl get pods
